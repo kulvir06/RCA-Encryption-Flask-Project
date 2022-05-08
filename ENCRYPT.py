@@ -63,7 +63,7 @@ print('Vector Kr : ', Kr)
 print('Vector Kc : ', Kc)
 
 #key for encryption written into the file keys.txt
-f = open('keys.txt','w+')
+f = open('static/encrypted/keys.txt','w+')
 f.write('Vector Kr :\n')
 for a in Kr:
  f.write(str(a) + '\n')
@@ -151,5 +151,5 @@ for iterations in range(ITER_MAX):
 for i in range(m):
  for j in range(n):
   pix[i,j] = (r[i][j],g[i][j],b[i][j])
-im.save('C:\\Users\\kulvir\\Desktop\\DEV\\Flask-Image\\static\\uploads\\encrypted.PNG')
+im.save('C:\\Users\\kulvir\\Desktop\\DEV\\Flask-Image\\static\\encrypted\\test.PNG')
 print("Success")

@@ -141,5 +141,5 @@ for iterations in range(ITER_MAX):
 for i in range(m):
     for j in range(n):
         pix[i, j] = (r[i][j], g[i][j], b[i][j])
-im.save('C:\\Users\\kulvir\\Desktop\DEV\\Flask-Image\\static\\uploads\\original.PNG')
+im.save('C:\\Users\\kulvir\\Desktop\DEV\\Flask-Image\\static\\decrypted\\original.PNG')
 print("Success")
